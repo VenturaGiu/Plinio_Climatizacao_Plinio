@@ -1,0 +1,210 @@
+.itensServicos {
+    width: 80%;
+    min-height: 40vh;
+    height: auto;
+    margin-top: 8%;
+    padding-left: 10%;
+    transition: all .1s;
+}
+
+.itensServicos:hover{
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+}
+
+.Imagem {
+    width: 40%;
+    height: 40vh;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    float: left;
+    position: relative;
+}
+
+.ImagemPar {
+    width: 40%;
+    height: 40vh;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    float: right;
+    position: relative;
+}
+
+.ImagemPar img {
+    max-width: 95%;
+    max-height: 95%;
+    width: auto;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.Imagem img {
+    max-width: 95%;
+    max-height: 95%;
+    width: auto;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.Info h4 {
+    font-family: "Lato Heavy";
+    font-size: 120%;
+    color: #000;
+    margin-bottom: 5%;
+}
+
+.Info {
+    width: 50%;
+    min-height: 40vh !important;
+    height: auto;
+    float: left;
+    font-family: "Century Gothic";
+    font-size: 100%;
+    color: #000;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.InfoPar h4 {
+    font-family: "Lato Heavy";
+    font-size: 120%;
+    color: #000;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.InfoPar {
+    width: 50%;
+    min-height: 40vh !important;
+    height: auto;
+    float: left;
+    font-family: "Century Gothic";
+    font-size: 100%;
+    color: #000;
+    text-align: justify;
+    margin-right: 10%;
+}
+.wrapper {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    perspective: 2px;
+    transform-style: preserve-3d;
+  }
+  
+  .section {
+    position: relative;
+    height: 90vh;
+    min-height: 100px;
+    transform-style: inherit; 
+    z-index: -1;
+  }
+  
+  .section::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateZ(-1px) scale(1.5);
+  }
+  
+  .text{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255,0.5);
+    color: white;
+    text-shadow: 0 0 5px #000;
+    font-size: 20px;
+    text-align: center;
+  }  
+  .bg2::before {
+    background-image: url('../imagens/fundoServicos.png');
+  }
+
+  .bg3::before {
+    background-image: url('../imagens/fundoEmpresa.jpg');
+  }
+  
+  .centralizacao{
+    background-color: white;
+    width: 100%;
+    min-height: 20vh !important;
+    height: auto !important;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .centralizar{
+    margin: 0 auto;
+    width: 80%; /* Valor da Largura */
+  }
+  .title-pagesE{
+      margin-top: 5%;
+      color: #4E727E;
+      text-transform: uppercase;
+  }
+  .title-pagesC{
+      color: #4E727E;
+      text-transform: uppercase;
+  }
+  .LinhaSup{
+      z-index: 90;
+      position: relative;
+  }
+
+  .central{
+      z-index: 90;
+      position: relative;
+  }
+  .Menu{
+      position: relative;
+  }
+  .mvv{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tituloI{
+      width: 60%;
+      margin: 0 auto;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .tituloI h3{
+      float: left !important;
+      width: auto !important;
+  }
+
+  .iconsS{
+      float: left;
+      width: 20%;
+      margin: 0 auto;
+  }

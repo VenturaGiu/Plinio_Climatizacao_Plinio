@@ -1,0 +1,22 @@
+#map{
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#contatos{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+#formC{
+    width: 45%;
+    float: left;
+    margin-top: 5%;
+}
+
+.inputc-3{
+    width: 22% !important;
+}

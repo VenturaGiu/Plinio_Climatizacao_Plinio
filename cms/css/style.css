@@ -1,0 +1,539 @@
+@font-face{
+	font-family: OpenSans;
+	src: url("fonts/OpenSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: LatoBold;
+	src: url("fonts/Lato-Bold.ttf");
+}
+
+@font-face{
+	font-family: LatoHair;
+	src: url("fonts/Lato-Hairline.ttf");
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Century Gothic";
+	outline: none;
+}
+
+.esp{
+	width: 100%;
+	height: 1px;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	padding: 25px 0;
+	background: #f8f8f8;
+	border-top: 2px solid #333;
+	border-bottom: 4px solid #333;
+}
+
+.Centro{
+	width: 930px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+.Logo{
+	width: auto;
+	max-width: 30%;
+	float: left;
+	height: auto;
+	max-height: 130px;
+}
+
+.TopoSair{
+	width: 30%;
+	height: auto;
+	float: right;
+	text-align: right;
+	font-size: 16px;
+	color: #888;
+}
+
+.TopoSair a{
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
+}
+
+.TopoSair a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	background: #333;
+	width: 100%;
+	height: auto;
+}
+
+.ListaMenu{
+	list-style: none;
+}
+
+
+.ListaMenu li{
+	float: left;
+	margin-right: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.ListaMenu li a{	
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.BtnMenu{
+	padding: 20px 10px;
+	border: 0;
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.BtnMenu:hover{
+	color: #333;
+	background: #fff;
+	transition: 0.5s;
+}
+
+.ListaMenu li:hover .DropDown, .DropDown:hover{
+	display: block;
+}
+.DropDown{
+	position: absolute;
+	left: 0;
+	list-style: none;
+	display: none;
+	z-index: 999;
+}
+
+.DropDown li{
+	clear: both;
+	width: 135px;
+	background: #333;
+	padding: 8px 12px;
+	text-align: left;
+	position: relative;
+}
+
+.DropDown li a{
+	font-size: 10px !important;
+}
+
+.DropDown li:hover .DropDown2, .DropDown2:hover{
+	display: block;	
+}
+
+
+.DropDown2{
+	display: none;
+	list-style: none;
+	left: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 999;
+}
+
+.DropDown2 li{
+	background: #666;
+}
+footer{
+	padding: 40px 0;
+	background: #333;
+}
+
+.TextoFooter{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+
+.TextoFooter a{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+.TextoFooter a:hover{
+	border-top: 2px solid #fff;
+}
+
+
+.CentroConteudo{
+	min-height: 400px;
+}
+
+.AcessNeg{
+	font-weight: 100;
+	font-size: 32px;
+	color: #333;
+	padding: 20px 0;
+	border-bottom: 2px solid #333;
+}
+
+.TituloPagina{
+	font-family: LatoBold;
+	font-weight: 100;
+	color: #333;
+	text-transform: uppercase;
+	padding: 25px 0;
+	font-size: 30px;
+}
+
+.Linha{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+}
+
+.tiny{
+	width: 100%;
+	height: 400px;
+}
+
+.Campo{
+	padding: 7px 14px;
+	border: 1px solid #ccc;
+	outline: none;
+	transition:0.5s;
+}
+
+.Campo:hover{
+	transition:0.5s;
+	border: 1px solid #333;
+}
+.inputemp{
+	width: 97%;
+}
+
+.Btn{
+	padding: 8px 12px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #333;
+	border: 1px solid #fff;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.Btn:hover{
+	color: #333;
+	background: #fff;
+	border: 1px solid #333;
+	transition: 0.5s;
+}
+
+.BtnDel{
+	background: #a00 !important;
+	color: #fff !important;
+	transition: 0.5s;
+}
+
+.BtnOk{
+	background: #0a0 !important;
+	color: #fff !important;
+	transition: 0.5s;
+}
+
+.load{
+	font-size: 14px;
+	color: #00d;
+}
+
+.ok{
+	font-size: 14px;
+	color: #333;
+}
+
+.erro{
+	font-size: 14px;
+	color: #d00;
+}
+
+.inputcadu{
+	width: 250px;
+}
+
+.Login{
+	width: 60%;
+	left: 20%;
+	right: 20%;
+	top: 35%;
+	height: auto;
+	position: absolute;
+	text-align: center;
+}
+
+.Logo_login{
+	width: auto;
+	max-width: 50%;
+	height: auto;
+	max-height: 130px;
+	margin: auto;
+}
+
+/* lista usuarios cadastrados */
+
+.CadCat{
+	padding: 10px 0;
+}
+
+.CadCat h2{
+	color: #444;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+
+.TabelaDeListas{
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.TabelaDeListas tr th{
+	background: #7ba539;
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.TabelaDeListas tr td{
+	color: #000;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+.LinhatableImpar{
+	background: #f8f8f8;
+}
+
+.LinhatablePar{
+	background: #f0f0f0;
+}
+
+.TabelaDeListas tr td a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.TabelaDeListas tr td a:hover{
+	text-decoration: underline;
+}
+
+/* galeria */
+
+.ImgGal{
+	width: 30%;
+	height: 250px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.ImgGal .Selecionar{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	background: rgba(255, 255, 255, 0.5);
+	color: #000;
+	font-size: 14px;
+	text-indent: 10px;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.ImgGal:hover .Selecionar{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.CaminhoImg{
+	opacity: 0;
+	color: #f00;	
+}
+
+.CaminhoImg input{
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.ImgGal:hover .CaminhoImg{
+	opacity: 1;
+	transition: 0.5s;
+}
+.textarea{
+	resize: none;
+	width: 560px;
+	height: 100px;
+}
+
+.Blocovideos{
+	float: left;
+	width: 49%;
+	height: auto;
+	margin-right: 1%;
+	margin-bottom: 25px;
+}
+
+.Blocovideos iframe{
+	width: 100%;
+	height: 300px;
+}
+
+/* ---- home ---*/
+
+.fundohome{
+	background: url(../imagens/fundohome.png) no-repeat;
+	background-size: auto 130%;
+	background-position: 50% 20px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.fundohome h1{
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-family: LatoHair;
+	padding: 20px 0;	
+}
+
+.fundohome h2{
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: LatoBold;
+	color: #333;
+}
+
+
+/* contatos */
+
+.ListaContatos{
+	width: 49%;
+	height: auto;
+	padding: 10px 0;
+	margin-top: 10px;
+	border-top: 2px solid #ccc;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.SubTitulos{
+	font-size: 26px;
+	font-family: LatoHair;
+	color: #7ba539;
+}
+
+.inputcadcont{
+	width: 350px;
+}
+
+.BlocoBanners{
+	width: 49%;
+	height: 185px;
+	position: relative;
+	margin-bottom: 1%;
+	overflow: hidden;
+	float: left;
+	margin-right: 1%;
+}
+
+.BlocoBanners .Excluir, .BlocoMarcas .Excluir{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.8);
+	color: #000;
+	text-align: center;
+	opacity: 0.1;
+	transition: 0.5s;
+}
+
+.BlocoBanners:hover .Excluir, .BlocoMarcas:hover .Excluir{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.BlocoMarcas{
+	width: 15%;
+	float: left;
+	height: 140px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.BlocoMarcas input[type=submit]{
+	font-size: 10px !important;
+}
+
+.BlocoMarcas .Excluir{
+	padding: 5px 0 !important;
+}
+
+.BlocoPraga{
+	width: 23%;
+	height: auto;
+	float: left;
+	text-align: center;
+	border: 1px solid #eee;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
+.BlocoPraga img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 150px;
+}
+
+.BlocoPraga a{
+	text-decoration: none;
+	color: #333;
+	font-family: LatoBold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.inputcont{
+	width: 560px;
+}
+
+.Imgprodlist{
+	width: auto;
+	height: auto;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.Imgfx, .ImgDest{
+	max-width: 450px;
+	max-height: 450px;
+}

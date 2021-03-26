@@ -1,0 +1,552 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url("fontes/Century-Gothic.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.Clear {
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+.Centro {
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    border-bottom: 2px solid #4E727E;
+}
+
+.li_style:hover {
+    background-color: #4E727E;
+}
+
+.LinhaSup {
+    background: #dfdfdf;
+    font-family: "Century Gothic";
+    font-size: 12px;
+    word-spacing: 4px;
+    padding: 5px 0;
+    color: #4E727E;
+}
+
+.Logo {
+    width: 22%;
+    margin-top: 1%;
+}
+
+.Logo img {
+    width: 100%;
+    height: auto;
+}
+
+.Slider {
+    width: 100%;
+    height: auto;
+}
+
+.BlHome {
+    width: 100%;
+    height: auto;
+    padding: 40px 0 !important;
+}
+
+.Bl1 {
+    background: #000;
+    margin-top: -5px;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.darkblue {
+    color: #4E727E;
+}
+
+.ciano {
+    color: #0af;
+}
+
+.Text-Center {
+    text-align: center;
+}
+
+.Text-Right {
+    text-align: right;
+}
+
+.Justify {
+    text-align: justify;
+}
+
+.TitleHome {
+    font-family: "Gotham Font";
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: Normal;
+}
+
+.SubTitle {
+    width: 100%;
+    height: auto;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: Normal;
+    color: #4E727E;
+}
+
+.Text {
+    font-family: "Century Gothic";
+    line-height: 150%;
+    font-size: 15px;
+}
+
+.Bloco-1-3 {
+    padding: 5px !important;
+    width: 30%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 14% !important;
+}
+
+.ajustes {
+    width: 22% !important;
+}
+
+.Bloco-1-3-home {
+    background: #f0f0f0;
+    transition: all .1s;
+    border-radius: 5px;
+    color: #4E727E;
+    font-size: 130%;
+}
+
+.Bloco-1-3-home:hover {
+    background-color: #4E727E;
+    transition-duration: 0.7s;
+    color: white;
+    transform: scale(1.2);
+}
+
+.Bloco-1-3-home a {
+    text-decoration: none;
+    color: #000;
+    font-size: 100%;
+}
+
+.Info {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.Info h4 {
+    text-align: center;
+    width: 100%;
+    font-family: "Lato Heavy";
+    color: #000;
+    text-transform: uppercase;
+}
+
+.Info a {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Champagne Normal";
+    background: #4E727E;
+    font-size: 16px;
+    border: 1px solid #4E727E;
+    transition: 0.5s;
+}
+
+.Info a:hover {
+    background: #fff;
+    color: #4E727E;
+    transition: 0.5s;
+}
+
+.Bl2 {
+    background: #fff;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+
+.Bl3 {
+    width: 100%;
+    height: auto;
+    background: #4E727E;
+    padding: 35px 0;
+    border-bottom: 5px solid #4c577f;
+}
+
+.L1-Bl3 {
+    font-weight: Normal;
+    font-size: 32px;
+    font-family: "Gotham Font";
+    text-transform: uppercase;
+}
+
+.L1-Bl4 {
+    font-weight: Normal;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+.FooterInfos {
+    padding: 45px 0;
+    word-spacing: 5px;
+}
+
+.FooterInfos a {
+    color: #4E727E;
+    text-decoration: none;
+    font-family: "Champagne Bold";
+}
+
+.FooterInfos a:hover {
+    color: #fff;
+}
+
+.Logo-F {
+    width: 40%;
+    height: auto;
+}
+
+.End {
+    width: 100%;
+    height: auto;
+    font-family: "Century Gothic";
+    font-size: 14px;
+}
+
+.LinhaFooter {
+    width: 100%;
+    height: auto;
+    background: #444;
+    color: #888;
+    font-family: "Champagne Bold";
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.Designer {
+    width: 350px;
+    height: auto;
+    float: right;
+    font-family: "Century Gothic";
+}
+
+.Designer a {
+    color: #4E727E;
+    text-decoration: none;
+}
+
+.Icons {
+    float: right;
+    width: 100px;
+    text-align: right;
+}
+
+.Icons img {
+    width: auto;
+    height: 16px;
+}
+
+.FaixaTopo {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    position: relative;
+    border-bottom: 5px solid #4E727E;
+}
+
+.fundoescuro {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    top: 0;
+}
+
+.FaixaTopo .Centro {
+    position: relative;
+    z-index: 5;
+}
+
+.FaixaTopo h1,
+.FaixaTopo h2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    font-weight: Normal;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.FaixaTopo h1 {
+    font-size: 40px;
+    font-family: "Gotham Font";
+}
+
+.FaixaTopo h2 {
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+.FaixaSobreNos {
+    background: url("../imagens/fundoServicos.png");
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.min-height-c {
+    min-height: 450px;
+}
+
+.title-pages {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    font-family: "Champagne Bold";
+    font-size: 24px;
+    font-weight: Normal;
+}
+
+.BlSobreNos {
+    background: #FFBA87;
+}
+
+.mvv {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.mvv h3 {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Gotham Font";
+    color: #4E727E;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.mvv p {
+    color: #888;
+}
+
+.FaixaServicos {
+    background: url("../imagens/fundo.jpg");
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.FaixaGalerias {
+    background: url("../imagens/fundo.jpg");
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.FaixaContato {
+    background: url("../imagens/fundo.jpg");
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.h2_style {
+    color: #4E727E;
+}
+
+.ImageVerServ {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.ImageVerServ img {
+    width: 350px !important;
+    height: 350px !important;
+}
+
+.CentroCont {
+    width: 100%;
+    height: auto;
+}
+
+.CentroCont img {
+    width: 200px;
+    height: auto;
+}
+
+.input {
+    padding: 10px 20px;
+    border: 1px solid #bbb;
+    font-family: "Century Gothic";
+    transition: 0.5s;
+}
+
+
+/*.input:hover, .input:focus{*/
+
+
+/*	border: 1px solid #f58634;*/
+
+
+/*	transition: 0.5s;*/
+
+
+/*}*/
+
+.Linha {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+}
+
+.textareadis {
+    resize: none;
+}
+
+.Btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #4E727E;
+    background: #4E727E;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Btn:hover {
+    background: #fff;
+    color: #4E727E;
+    transition: 0.5s;
+}
+
+.Map {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.ok,
+.erro,
+.load {
+    font-size: 13px;
+    font-family: "Century Gothic";
+}
+
+.ok {
+    color: #5c5;
+}
+
+.erro {
+    color: #c55;
+}
+
+.load {
+    color: #55c;
+}
+
+.Construct {
+    width: 100%;
+    height: auto;
+    padding: 35px 0;
+    text-align: center;
+    font-family: "Gotham Font";
+    color: #000;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.icowpc {
+    width: auto !important;
+    height: 22px !important;
+    vertical-align: middle;
+}
+
+#botaoFlutuante {
+    position: fixed;
+    bottom: 6.5%;
+    margin-left: 84%;
+    margin-right: 5%;
+    padding: 0.1%;
+    z-index: 10000000;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: #000;
+    border: solid 2px rgba(36, 99, 0, 0.363);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+#botaoFlutuante:hover {
+    transition: 0.5s;
+    opacity: 10;
+}
+
+#botaoFlutuante img {
+    width: 20%;
+    height: auto;
+}
+
+#botaoFlutuante h5 {
+    font-size: 95%;
+    margin-left: 2%;
+    /* margin-top: 2%; */
+}
+
+.bg1::before {
+    background-image: url('../imagens/fundoServico.jpg');
+  }
